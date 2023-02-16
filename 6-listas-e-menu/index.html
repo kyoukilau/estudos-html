@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento-da-laulau</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: rgb(219, 175, 247);
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                font-family: -apple-system, BlinkMacSystemFont, 
+                'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+                'Helvetica Neue', sans-serif;
+
+                padding: 10px 20px;
+                display: block;
+            }
+            /* Display block empurra todos os elementos para a frente dele. */
+            /* nav empurrada */
+            /*  Quanto mais especifico, mais voce acerta 
+            porem mais dificil de alterar */
+
+            nav a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+            nav {
+                display: flex;
+                align-items: center;
+                
+            }
+
+           nav ul {
+            display: flex;
+            list-style: none;
+            /* background: rgb(138, 234, 138);
+            margin-left: 10px;-- mesma coisa do background nav a */
+           }
+    </style>
+
+</head>
+<body>
+
+    <header></header>
+
+    <nav>
+        <ul>
+            <li> <a href="#">HOME </a></li>
+            <li> <a href="#">ABOUT </a></li>
+            <li> <a href="#">PRODUCTS </a></li>
+        </ul>
+    </nav>
+
+    <div class="listas">
+
+        <!-- ul é lista não ordenada com tag li -->  
+        <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+        </ul>
+  
+        <!-- ol é lista ordenada -->
+        <ol type="i">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ol>
+  
+        <dl>
+              <dt>LISTA DESCRITIVA</dt>
+              <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis minus incidunt culpa rerum, amet aut, placeat magni
+                 rem dolor harum cupiditate adipisci 
+                dolores iste et nihil voluptas optio, excepturi provident.</dd>
+              <dt>LISTA DESCRITIVA</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Nihil omnis ut soluta iste nostrum unde vitae officia odio 
+                 ipsum! Sint, quam id. Tempora,porro! Aspernatur, voluptates!
+                  Rem vel ad similique!</dd>
+        </dl>
+  
+    </div>
+</body>
+</html>
